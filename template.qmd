@@ -16,22 +16,10 @@ author:
       - name: Insee, Genes
 slide-number: true
 footer: |
-  **[onyxia.sh](https://www.onyxia.sh)**
-# uncomment for French presentations:
-#lang: fr
-# for blind readers:
-slide-tone: true
-# for @olevitt:
-chalkboard: # press the B key to toggle chalkboard
-  theme: whiteboard
-# uncomment to use the multiplex mode:
-#multiplex: true
+  **[15e édition des journées de méthodologie statistique](https://journees-methodologie-statistique.insee.net/)**
 format:
   jms-revealjs:
     output-file: index.html
-# visual editor configuration:
-editor:
-  render-on-save: true
 ---
 
 ## How to use this template?
