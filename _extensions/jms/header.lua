@@ -9,7 +9,7 @@ function Header(el)
 
   if not el.attributes['background-image'] then
     el.attributes['background-image'] = 'header_jms2025.png'
-    el.attributes['background-opacity'] = '0.6'
+    el.attributes['background-opacity'] = '0.1'
 
     -- --- Cover : image sur toute la slide ---
     if el.classes:includes("title-slide") then

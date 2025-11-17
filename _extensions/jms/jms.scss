@@ -3,7 +3,12 @@ $marron:  #552523 ;
 $orange: #ea6858;
 $green: #c8d42c;
 $black: rgb(44, 50, 63);
+$purple: #633250 ;
 
+
+$link-color: $green;
+
+/*-- scss:rules --*/
 
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400&display=swap');
@@ -16,6 +21,12 @@ $body-color: $black !default;
 .reveal h1, .reveal h2, .reveal h3 {
     color: $marron !important;
 }
+
+
+.reveal .title {
+  font-size: 1.3em;
+}
+
 
 .reveal code {
     color: $orange !important;
@@ -49,4 +60,12 @@ $dark-bg-code-color: $orange !default;
 #title-slide .date {
   color: $black !important;
   //font-weight: 600;
+}
+
+.orange {
+  color: $orange;
+}
+
+.purple {
+  color: $purple;
 }
